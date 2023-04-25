@@ -19,7 +19,7 @@ body{
 
 .section{
     width: 100%;
-    height: 60px;
+    height: 33%;
 }
 
 #navbar{
@@ -70,11 +70,13 @@ body{
     max-height: 300px;
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: bolder;
 }
 
 #hero-text p{
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: normal;
 }
 
 #hero-text button{
@@ -85,4 +87,62 @@ body{
     color: #F9FAF8;
     background-color: #3882f6;
 } 
+
+#artworks-intro h1{
+    margin: 5% 0;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.section .artworks{
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artworks li{
+    margin-bottom: 10%;
+    list-style-type:none;
+    max-width: 150px;
+    font-size: medium;
+    color: rgb(116, 113, 113);
+    text-align: center;
+    font-size: 18px;
+}
+
+.artworks li img{
+    object-fit: contain;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+#section-quote{
+    padding: 10% 14%;
+    width: 100%;
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+#section-quote :nth-child(1){
+    color: #1f2937ae;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#section-quote :nth-child(2){
+    text-align: right;
+    margin-top: 3%;
+    margin-right: 5%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
 
