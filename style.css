@@ -144,5 +144,34 @@ body{
     font-weight: bold;
 }
 
+.info-box{
+    display: flex;
+    margin: 10% 10%;
+    padding: 5% 5%;
+    align-items: center;
+    border-radius: 5px;
 
+    background-color: #3882f6;
+}
+
+.info-box .text{
+    color: white;
+    width: 70%;
+}
+
+.info-box p{
+    color: #E5E7EB;
+}
+
+.info-box button{
+    margin-left: 10%;
+    width: 88px;
+    height: 30px;
+    border-style:solid;
+    border-radius: 8px;
+
+    color: white;
+    background-color: #3882f6;
+    border-color: #F9FAF8;
+}
 
