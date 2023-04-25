@@ -24,6 +24,7 @@ body{
 
 #navbar{
     display: flex;
+    padding: 2% 0;
     width: 100%;
     background: #1F2937;
     color: #F9FAF8;
@@ -175,3 +176,13 @@ body{
     border-color: #F9FAF8;
 }
 
+.footer{
+    padding: 2% 0;
+    min-height: 44px;
+    background-color: #1F2937;
+}
+
+.footer p{
+    text-align: center;
+    color: #F9FAF8;
+}
