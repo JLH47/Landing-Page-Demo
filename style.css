@@ -58,8 +58,9 @@ body{
 }
 
 #intro-image{
-    border-style:outset;
+    border-style:solid;
     border-color: aliceblue;
+    border-radius: 8px;
     margin-right: 2%;
     margin-left: 2%;
     max-width: 40%;
@@ -115,7 +116,7 @@ body{
 
 .artworks li img{
     object-fit: contain;
-    border-style:ridge;
+    border-style:solid;
     border-width: 5px;
     border-color: #3882f6;
     border-radius: 8px;
